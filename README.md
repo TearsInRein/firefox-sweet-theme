@@ -11,8 +11,7 @@ Notable changes:
 1 - Mac buttons in a dark sweet style hiding when losing focus
 2 - Fixed extension icons not visualizing properly after the latests firefox updates
 
-######################################################################################################################
-
+#######################################################################################
 A dark and modern theme for firefox
 
 This theme is supposed to work with current supported Firefox releases:
