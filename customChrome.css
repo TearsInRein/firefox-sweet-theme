@@ -1,0 +1,94 @@
+.unified-extensions-item-action-button .toolbarbutton-icon {
+    background-image: var(--webextension-menupanel-image) !important;
+    background-size: 16px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    
+    list-style-image: none !important; 
+    mask-image: none !important;
+    -webkit-mask-image: none !important;
+    filter: none !important;
+    
+    min-width: 16px !important;
+    min-height: 16px !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+
+.webextension-browser-action .toolbarbutton-icon {
+    background-image: var(--webextension-toolbar-image, inherit) !important;
+    background-size: 16px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    
+    list-style-image: none !important;
+    mask-image: none !important;
+    -webkit-mask-image: none !important;
+    filter: none !important;
+    
+    min-width: 16px !important;
+    min-height: 16px !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+
+/* semaforo */
+
+.titlebar-buttonbox .titlebar-button .toolbarbutton-icon {
+    opacity: 0 !important;
+}
+
+.titlebar-buttonbox .titlebar-button {
+    appearance: none !important;
+    border-radius: 50% !important;
+    width: 14px !important;
+    height: 14px !important;
+    min-width: 14px !important;
+    min-height: 14px !important;
+    margin: 0 4px !important;
+    padding: 0 !important;
+    border: none !important;
+    transition: all 0.2s ease !important;
+}
+
+.titlebar-buttonbox {
+    align-items: center !important;
+    padding: 0 10px !important;
+}
+
+.titlebar-buttonbox .titlebar-close {
+    background: linear-gradient(135deg, #ff3366, #ff0044) !important;
+}
+.titlebar-buttonbox .titlebar-close:hover {
+    background: linear-gradient(135deg, #ff5c85, #ff3366) !important;
+}
+
+.titlebar-buttonbox .titlebar-min {
+    background: linear-gradient(135deg, #f8e71c, #ff9f1c) !important;
+}
+.titlebar-buttonbox .titlebar-min:hover {
+    background: linear-gradient(135deg, #fff24d, #ffb347) !important;
+}
+
+.titlebar-buttonbox .titlebar-max,
+.titlebar-buttonbox .titlebar-restore {
+    background: linear-gradient(135deg, #ff00ea, #b300ff) !important;
+}
+.titlebar-buttonbox .titlebar-max:hover,
+.titlebar-buttonbox .titlebar-restore:hover {
+    background: linear-gradient(135deg, #ff4dff, #c733ff) !important;
+}
+
+#main-window:-moz-window-inactive .titlebar-buttonbox .titlebar-button {
+    background: transparent !important;
+    opacity: 0 !important;
+    box-shadow: none !important;
+    pointer-events: none !important; 
+}
+
+#main-window:-moz-window-inactive .titlebar-buttonbox .titlebar-button .toolbarbutton-icon {
+    opacity: 0 !important;
+    display: none !important;
+}
