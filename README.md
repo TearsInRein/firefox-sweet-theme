@@ -8,7 +8,7 @@ However you can simply copy the contents of the customChrome.css and paste it in
 
 Notable changes:
 
-1 - Mac buttons in a dark sweet style hiding when losing focus
+1 - Mac buttons in a dark sweet style. Buttons hide when firefox's window loses focus
 
 2 - Fixed extension icons not visualizing properly after the latests firefox updates
 
