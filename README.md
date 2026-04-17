@@ -4,14 +4,14 @@
 
 This fork's customChrome.css is for hyprland users loading their firefox profile to the RAM with profile-sync-daemon.
 
-However you can simply copy the contents of the customChrome.css and paste it into your standard Firefox profile path (~/.mozilla/firefox/*.default-release/chrome/), alongside the original theme files.
+However you can simply copy the contents of the customChrome.css and paste it into your standard Firefox profile path (~/.mozilla/firefox/*.default-release/chrome/userChrome.css), alongside the original theme files.
 
 Notable changes:
 
 1 - Mac buttons in a dark sweet style hiding when losing focus
 2 - Fixed extension icons not visualizing properly after the latests firefox updates
 
-###################################################################################
+################################################################################
 
 A dark and modern theme for firefox
 
